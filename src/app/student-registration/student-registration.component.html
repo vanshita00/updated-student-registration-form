@@ -1,0 +1,15 @@
+<div class="registration-form">
+    <h2>Student Registration Form</h2>
+    <form (ngSubmit)="submitForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" [(ngModel)]="student.name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="text" id="email" [(ngModel)]="student.email" name="email" required>
+      <label for="age">Age:</label>
+      <input type="text" id="age" [(ngModel)]="student.age" name="age" required>
+      <label for="course">Course:</label>
+      <input type="text" id="course" [(ngModel)]="student.course" name="course" required>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  

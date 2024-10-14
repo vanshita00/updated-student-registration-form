@@ -1,0 +1,11 @@
+<div class="home-page">
+    <h2>Welcome to the Student Registration Portal</h2>  
+    <div *ngIf="student">
+      <h3>Student Details</h3>
+      <p><strong>Name:</strong> {{ student.name }}</p>
+      <p><strong>Email:</strong> {{ student.email }}</p>
+      <p><strong>Age:</strong> {{ student.age }}</p>
+      <p><strong>Course:</strong> {{ student.course }}</p>
+    </div>
+  </div>
+  
